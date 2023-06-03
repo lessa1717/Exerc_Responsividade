@@ -21,7 +21,7 @@ header {
     align-items: center;
 }
 
-.posicionamento{
+.posicionamento {
     width: 90%;
     max-width: 1400px;
     margin: 0 auto;
@@ -38,8 +38,8 @@ header {
     width: 250px;
 }
 
-.menu_barras{
-    display:none;
+.menu_barras {
+    display: none;
 }
 
 header nav {
@@ -67,15 +67,16 @@ header a {
 
 
 
-h1{
-   width: 1em;
-   position: absolute;
-   left: -999em;
-   overflow: hidden;
+h1 {
+    width: 1em;
+    position: absolute;
+    left: -999em;
+    overflow: hidden;
 
-   /* display: none;
+    /* display: none;
    visibility: hidden; */
 }
+
 /* BANNER */
 .banner {
     background-image: url("../img/banner-background.png");
@@ -143,7 +144,7 @@ h1{
 
 .banner_botoes .btn_cli {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), linear-gradient(92.23deg, #FF398F -25.96%, #17BBFF 126.83%);
-    
+
     box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(25px);
 
@@ -157,7 +158,7 @@ h1{
 
 /* CONEXÂO */
 .desenvolvedores,
-.clientes{
+.clientes {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -165,7 +166,7 @@ h1{
     padding-bottom: 100px;
 }
 
-.conexao{
+.conexao {
     background-color: var(--azulC);
     width: 500px;
     height: 120px;
@@ -182,7 +183,7 @@ h1{
 }
 
 .dev_conteudo,
-.clientes_conteudo{
+.clientes_conteudo {
     display: flex;
     text-transform: uppercase;
     gap: 100px;
@@ -190,25 +191,25 @@ h1{
 }
 
 .dev_conteudo img,
-.clientes_conteudo img{
+.clientes_conteudo img {
     max-width: 500px;
     width: 50%;
 }
 
-h2{
+h2 {
     font-family: var(--font2);
     font-size: 25px;
     text-transform: uppercase;
 }
 
 .dev_conteudo ul,
-.clientes_conteudo ul{
+.clientes_conteudo ul {
     font-family: var(--font1);
     font-size: 18px;
     margin: 50px 0;
 }
 
-.main_btn{
+.main_btn {
     box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(25px);
     border-radius: 30%;
@@ -217,7 +218,7 @@ h2{
     font-family: var(--font2);
 }
 
-.clientes_conteudo a{
+.clientes_conteudo a {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), linear-gradient(92.23deg, #FF398F -25.96%, #17BBFF 126.83%);
 
     padding: 11px 50px;
@@ -228,7 +229,7 @@ h2{
 
 
 /* PARALAX */
-.paralax{
+.paralax {
     background-image:
         url("../img/maos_connect.png");
     height: 300px;
@@ -243,11 +244,11 @@ h2{
 
 
 /* DEVs */
-.desenvolvedores{
+.desenvolvedores {
     padding-top: 100px;
 }
 
-.dev_conteudo a{
+.dev_conteudo a {
     background: linear-gradient(272.99deg, rgba(7, 12, 71, 0.55) 0%, rgba(7, 12, 71, 0.7) 100%);
 
     border: 4px solid var(--rosa);
@@ -259,24 +260,24 @@ h2{
 
 
 /* SERVIÇOS */
-.servicos{
+.servicos {
     /* display: flex; */
 }
 
-.servicos h2{
+.servicos h2 {
     text-align: center;
     margin-bottom: 100px;
 }
 
-.servicos>div{
+.servicos>div {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 5px;
 }
 
-.card{
-    
+.card {
+
     width: 400px;
     height: 350px;
     background-color: #182246;
@@ -287,25 +288,25 @@ h2{
     justify-content: space-between;
     position: relative;
     padding: 60px 30px 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-shadow: 5px 10px 15px #000000
 }
 
-.card img{
+.card img {
     position: absolute;
     top: -40px;
 }
 
-h3{
+h3 {
     font-size: 26px;
 }
 
-.card p{
+.card p {
     font-size: 20px;
     text-align: center;
 }
 
-.card span{
+.card span {
     font-size: 24px;
 }
 
@@ -315,8 +316,8 @@ h3{
 
 /* FOOTER */
 footer {
-    background-image: 
-        linear-gradient( #060821a0, #c12d6d30),
+    background-image:
+        linear-gradient(#060821a0, #c12d6d30),
         url("../img/background_footer.png");
     background-size: cover;
     color: var(--branco);
@@ -426,10 +427,10 @@ footer {
 }
 
 
-@media screen and  (max-width:895px ) {
+@media screen and (max-width:895px) {
 
-    .servicos > div > div:nth-child(2){
-        margin-top:  100px;
+    .servicos>div>div:nth-child(2) {
+        margin-top: 100px;
 
     }
 }
@@ -439,15 +440,89 @@ footer {
 @media screen and (max-width: 768px) {
     .menu_barras {
         display: initial;
-     }
-    .menu_barras svg{
+
+    }
+
+    .menu_barras svg {
         height: 50px;
         fill: var(--branco);
     }
 
-    .posicionamento_header nav{
+    .posicionamento_header {
+        position: relative;
+    }
+
+    .posicionamento_header nav {
         display: none;
+        position: absolute;
+        right: 0;
+        top: 80px;
+        background-color: #060821de;
+        flex-direction: column;
+        z-index: 1;
+        padding: 50px 0;
+        backdrop-filter: blur(10px);
+        border-radius: 50px;
+        border:  1px solid rgba(255,255,255, 0.8);
+    }
+
+    header nav a {
+        margin: 15px 0;
+    }
+
+/*FOOTER*/
+
+    .rodape_conteudo{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
     }
 
 
+    .rodape_conteudo_contatos{
+        align-items: center;
+        order: 2;
+    }
+    .rodape_conteudo_paginas{
+        order: 3;
+    }
+    .rodape_conteudo img{
+        order: 1;
+    }
+    .clientes_conteudo img{
+        display: none;
+        
+    }
+    .clientes_conteudo{
+        align-items: center;
+    }
+    .paraClientes{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .span_dicas img{
+        display: none;
+        
+    }
+
+    .span_dicas{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 70px;
+        /* font-size: 20px;
+        width: 700px;
+        height: 200px; */
+       
+
+
+    }
+    .span_dicas_texto{
+        display: flex;
+        width: 90%;
+        align-items: center;
+        flex-direction: column;
+    }
+   
 }
